@@ -27,14 +27,14 @@
 
 :root{
 	
-	--color-0: 			rgb(54, 98, 156);
-	--color-1: 			rgb(110, 123, 139);
-	--color-2: 			rgb(39, 106, 192);
-	--color-3: 			rgb(39, 106, 192);
-	--color-4: 			rgba( 39, 106, 192);
+	--color-0: 			rgb(1, 61, 151);
+	--color-1: 			rgba(122,129,132, 1);
+	--color-2: 			rgba( 57, 71, 75, 1);
+	--color-3: 			rgba( 45,109,130, 1);
+	--color-4: 			rgba( 16,143,185, 1);
 	
 	--bg-color:			var(--color-0);
-	--bg-color-2:		rgb(29, 78, 143);
+	--bg-color-2:		rgb(39, 59, 114);
 	--bg-light-color:	rgba( 48, 61, 65, 1);
 	--bg-dark-color:	rgba( 24, 31, 33, 1);
 	--bg-hover-color:	var(--color-2);
