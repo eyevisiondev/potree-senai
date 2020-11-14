@@ -27893,11 +27893,7 @@ ENDSEC
 
 			let languages = [
 				["EN", "en"],
-				["FR", "fr"],
-				["DE", "de"],
-				["JP", "jp"],
-				["ES", "es"],
-				["SE", "se"]
+				["BR", "br"]
 			];
 
 			let elLanguages = $('#potree_languages');
@@ -28024,6 +28020,7 @@ ENDSEC
 			let elNavigation = $('#navigation');
 			let sldMoveSpeed = $('#sldMoveSpeed');
 			let lblMoveSpeed = $('#lblMoveSpeed');
+			let addLogo = $('#potree_company_logo')
 
 			elNavigation.append(this.createToolIcon(
 				Potree.resourcePath + '/icons/earth_controls_1.png',
@@ -28127,7 +28124,8 @@ ENDSEC
 			));
 
 
-
+           let potree_company_logo = $(`<img src="${Potree.resourcePath}/images/logo3.png" alt="será" width="250" height="90" style="margin-left: 15px;">`)
+		   addLogo.append(potree_company_logo)
 
 
 			let elCameraProjection = $(`
